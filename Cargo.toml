@@ -1,0 +1,17 @@
+[package]
+name = "itsamecube"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.63"
+bevy = "0.8.0"
+byte-slice-cast = "1.2.1"
+derive_more = "0.99.17"
+gst = {package="gstreamer",version="0.18.8"}
+gst-gl = {package="gstreamer-gl",version="0.18.0"}
+gst-app = {package="gstreamer-app",version="0.18.0"}
+wgpu = "0.13.1"
+glib = "0.15.12"
